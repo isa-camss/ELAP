@@ -1,0 +1,363 @@
+@base <http://data.europa.eu/2sa/elap> .
+@prefix dct: <http://purl.org/dc/terms#> .
+@prefix elap: <http://data.europa.eu/2sa/elap#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+
+elap:7240dcd6e6e701c28b3baca727569e13c319d0f5205cdbcb8d45b2999f1e01a0 a owl:Class;
+  dct:title "Primacy of principles"@en;
+  dct:description """The principles in ELAP apply to all architec-
+tural work within the EU during the life cycle of any architecture work within the context of interoperability and to all organizations in the EU"""@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Strategy (Public Policy Cycle)"@en;
+  dct:source "https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap20.html"^^xsd:anyURI;
+  rdfs:comment "TOGAF is  an extensive architecture framework and is considered a standard in many organizations in both private and public sector."@en .
+
+elap:d3cc0a1938f252da26d404de58dbbe69e872125b0d779875e11a3b66f56ea801 a owl:Class;
+  dct:title "Evidence based Public Policy"@en;
+  dct:description """Evidence-based Public Policies are policies designed and periodically reviewed looking at experimental evidences and incontrovertible data. 
+The primary goal is to improve the reliability of advice concerning the efficiency and effectiveness of policy settings and possible alternatives.
+There are three crucial enabling factors that underpin modern conceptions of evidence-based policy (EBP): high-quality information bases on relevant topic areas, cohorts of professionals with skills in data analysis and policy evaluation, and political incentives for utilising evidence-based analysis and advice in governmental decision-making processes."""@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Strategy (Public Policy Cycle)"@en;
+  dct:source "https://www.researchgate.net/publication/242709855_2_Evidence-based_policy_principles_and_requirements"^^xsd:anyURI;
+  rdfs:comment "Evidence-based policy: principles and requirements - Brian Head"@en .
+
+elap:4ccd376c766cf82024852bff782fc54e8986895822b172ecea738723d22a79f9 a owl:Class;
+  dct:title "EU Legislation Compliance"@en;
+  dct:description """EU Legislation Compliance is the property of a (national/local) legislation to be coherent or to implement European legislation.
+A compliance assessment of EU Directives must be carried out in two stages:
+(1) timely and systematic check whether Member States have transposed Union law;
+(2) a timely and systematic conformity check of national transposing measures against the relevant Union legislation (correct transposition). 
+
+While Member States are responsible for the timely and accurate transposition of directives as well as the correct application of the entire acquis, the Commission has to monitor the Member States’ efforts and ensure that their legislation complies with Union law."""@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://eur-lex.europa.eu/resource.html?uri=cellar:2c2f2554-0faf-11e7-8a35-01aa75ed71a1.0017.02/DOC_3&format=PDF"^^xsd:anyURI;
+  rdfs:comment "EUR-Lex is your online gateway to EU Law. It provides the official and most comprehensive access to EU legal documents. It is available in all of the EU’s 24 official languages and is updated daily"@en .
+
+elap:8b773803e66e0fc2e2bb6a629f56a915cf65dffb599302b3d54a08179af6bd07 a owl:Class;
+  dct:title "Transparency"@en;
+  dct:description """Transparency in the EIF context refers to:
+i. Enabling visibility inside the administrative environment of a public administration. This is about allowing other public administrations, citizens and businesses to view and understand administrative rules, processes,11 data, services and decision-making.
+ii. Ensuring availability of interfaces with internal information systems. Public administrations operate a large number of what are often heterogeneous and disparate information systems in support of their internal processes. Interoperability depends on ensuring the availability of interfaces to these systems and the data they handle. In turn, interoperability facilitates reuse of systems and data, and enables these to be integrated into larger systems.
+iii. Securing the right to the protection of personal data, by respecting the applicable legal framework for the large volumes of personal data of citizens, held and managed by Public administrations."""@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Strategy (Public Policy Cycle)"@en;
+  dct:source "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services - 2.4"^^xsd:anyURI;
+  rdfs:comment "The European Interoperability Framework is part of the Communication (COM(2017)134) from the European Commission adopted on 23 March 2017. The framework gives specific guidance on how to set up interoperable digital public services."@en .
+
+elap:389fdf62a9a9e5dae14ef0d435c006196e0b929ecff41031a495d57d78bb3d00 a owl:Class;
+  dct:title "Innovation"@en;
+  dct:description "Innovation entails rethinking organisations and processes, and changing behaviour so that public services are delivered more efficiently to people. Implemented well, eGovernment enables citizens, enterprises and organisations to carry out their business with government more easily, more quickly and at lower cost."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Improvement"@en;
+  dct:source "https://european-union.europa.eu/priorities-and-actions/actions-topic/research-and-innovation_en"^^xsd:anyURI;
+  rdfs:comment """Investing in research and innovation is investing in Europe’s future. It helps us to compete globally and preserve our unique social model. It improves the daily lives of millions of people here in Europe and around the world, helping to solve some of our biggest societal challenges.
+
+EU support for research and innovation adds value by encouraging cooperation between research teams across countries and disciplines that is vital in making breakthrough discoveries."""@en .
+
+elap:8aa6abbf41c7b280e3f94aef746924d8310bc28582b72acc11e85e7f81ea76e6 a owl:Class;
+  dct:title "Integrated Horizontal User Experience"@en;
+  dct:description """Integrated horizontal user experience refers to a user's experience, when her/his experience using a digital interface is fluent and seamless, also when she/he navigates through different applications/contexts.
+"""@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2019/07/02/Improving+the+user+experience+of+cross-border+eID"^^xsd:anyURI;
+  rdfs:comment "An example of integrated horizontal user experience is found in the development of eID"@en .
+
+elap:0096ddb8dd4b9da2571a65a0966fd7a7358d00deaaa9120ad774c0191379c627 a owl:Class;
+  dct:title "Once Only"@en;
+  dct:description "The Once Only Principle entails that citizens and businesses provide diverse data only once in contact with public administrations, while public administration bodies take actions to internally share and reuse these data – even across borders – always in respect of data protection regulations and other constraints. "@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Once+Only+Principle"^^xsd:anyURI;
+  rdfs:comment "The Commission helps to shape the EU's overall strategy, proposes new EU laws and policies, monitors their implementation and manages the EU budget. It also plays a significant role in supporting international development and delivering aid."@en .
+
+elap:79c888397e7a0ac33f6d9936c7736a7a77ad650ffbd1d1bea7c8efa7039f4e22 a owl:Class;
+  dct:title "New Public Management approach"@en;
+  dct:description """New Public Management arose out of a concern with government failures, a belief in the efficacy and efficiency  of markets, a belief in economic rationality, and a push away from  large, centralized government agencies toward devolution and privatization.
+In New Public Management, public managers are urged to \"steer,  not row.\" They steer by determining objectives, or what should be  done, and by catalyzing service delivery, or how it should be done (rowing), via their choice of a particular \"tool\" or combination of  tools (e.g., markets, regulation, taxes, subsidies, insurance, etc.) for achieving the objectives (Salamon 200)"""@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "NO generic references available"^^xsd:anyURI;
+  rdfs:comment "NO generic references available"@en .
+
+elap:730caacbb675fbc3930292662f24be21d9345efc7d8dc06586311d2733c02d30 a owl:Class;
+  dct:title "Public Value"@en;
+  dct:description "Public values are rooted in a reciprocal relationship between administrators and the citizenry. Value is created by satisfying politically expressed desires of citizens and clients. A digital public service should create and deliver public value to the society."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Strategy (Public Policy Cycle)"@en;
+  dct:source "https://www.longdom.org/open-access/public-value-theory-reconciling-public-interests-administrativeautonomy-and-efficiency-2315-7844-1000189.pdf "^^xsd:anyURI;
+  rdfs:comment """Public Value Theory: Reconciling Public Interests, Administrative
+Autonomy and Efficiency - Eli Turkel and Gerald Turkel
+"""@en .
+
+elap:d717c693d193fec1ee77f0561b9b34ddfb9df8cbe28c64b39c5fa460ac0b699e a owl:Class;
+  dct:title "Code of ethics compliance"@en;
+  dct:description "Code of ethics compliance refers to the expression of important values and standards that are also to be found in the law, but are not encumbered by the limitations and constraints that necessarily attach to legally-binding rules that can be used to impose sanctions. Additionally, the EC published a declaration on digital rights in 2022."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source """https://www.ombudsman.europa.eu/en/speech/en/49379
+https://ec.europa.eu/commission/presscorner/detail/en/IP_22_452"""^^xsd:anyURI;
+  rdfs:comment "The European Ombudsman is an independent and impartial body that holds the EU’s institutions and agencies to account, and promotes good administration. The Ombudsman helps people, businesses and organisations facing problems with the EU’s administration by investigating complaints about maladministration by EU institutions and bodies, but also by proactively looking into broader systemic issues."@en .
+
+elap:54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5 a owl:Class;
+  dct:title "Privacy"@en;
+  dct:description "Privacy refers to any freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her"@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN"^^xsd:anyURI;
+  rdfs:comment "EUR-Lex is your online gateway to EU Law. It provides the official and most comprehensive access to EU legal documents. It is available in all of the EU’s 24 official languages and is updated daily"@en .
+
+elap:474867ead762a2e38da40993dda9745bfc8c12be342eb1258004f7f28f82e870 a owl:Class;
+  dct:title "Best fit Public Service Implementation Orientation"@en;
+  dct:description "This refers to the implementation of the European interoperability framework, which is guided by the following vision: ‘Public administrations should make implementation decisions selecting a focus among alternative implementation orientations and considering the best fit with the public policy context. Examples of resource based implementation orientations are the integration orientation, the technology orientation, the governance orientation, and the legal orientation."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Strategy (Public Policy Cycle)"@en;
+  dct:source "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A52017DC0134"^^xsd:anyURI;
+  rdfs:comment "EUR-Lex is your online gateway to EU Law. It provides the official and most comprehensive access to EU legal documents. It is available in all of the EU’s 24 official languages and is updated daily"@en .
+
+elap:d74ca5c32d7bc5157ec25177a7368a29ed1bf1a90c17d5eab8621ab349e6a99d a owl:Class;
+  dct:title "EU Localization Framework compliance"@en;
+  dct:description """The EU Localization Framework concept consists of a package of case studies, specifications, guidelines, training materials, recommendations and actions required by public administrations and stakeholder communities to facilitate the implementation, use and expansion of INSPIRE in an e-government context.
+"""@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://inspire.ec.europa.eu/eulf/31 "^^xsd:anyURI;
+  rdfs:comment "The INSPIRE Directive aims to create a European Union spatial data infrastructure for the purposes of EU environmental policies and policies or activities which may have an impact on the environment. This European Spatial Data Infrastructure will enable the sharing of environmental spatial information among public sector organisations, facilitate public access to spatial information across Europe and assist in policy-making across boundaries."@en .
+
+elap:ae06cc87e50afcdca76f4a982cdde16b2a68b709c8e361184482be3c8096ca7f a owl:Class;
+  dct:title "Technology Neutrality"@en;
+  dct:description "Technology Neutrality refers to the independency of specific technology choices, that therefore can operate on a variety of technology platforms"@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://eur-lex.europa.eu/legal-content/en/LSU/?uri=CELEX%3A32014R0283"^^xsd:anyURI;
+  rdfs:comment "Technology neutrality here refers to criteria for 'supporting telecommunications neworks and digital service infrastructures across Europe'  but can be regarded holistic for any technology and industry"@en .
+
+elap:6662af007567f17ad8f4838d39da4b118eb8be564a5deb83330c758c99bda566 a owl:Class;
+  dct:title "Service Orientation"@en;
+  dct:description "Service orientation is a way of thinking in terms of services and service-based development and the outcomes of services."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://web.archive.org/web/20160819141303/http://opengroup.org/soa/source-book/soa/soa.htm"^^xsd:anyURI;
+  rdfs:comment "The Open Group is a global consortium that enables the achievement of business objectives through IT standards. "@en .
+
+elap:a356872ea06a18cf8491fb69de4e832ebf82bbd151cc8871eacc374461d64614 a owl:Class;
+  dct:title "Proactiveness"@en;
+  dct:description """Proactiveness refers to proactive services, which are public services that a public institution delivers following its own initiative considering the presumable will by the person and that is delivered based on the information stored in the data collections belonging to the state information system.
+Proactive service is based on life and business events and circumstances"""@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://joinup.ec.europa.eu/"^^xsd:anyURI;
+  rdfs:comment "Joinup is a collaborative platform on interoperability with the aim: \"to provide a common venue that enables public administrations, businesses and citizens to share and reuse IT solutions and good practices, and facilitate communication and collaboration on IT projects across Europe.\", created by the European Commission and funded by the European Union via the Interoperability solutions for public administrations, businesses and citizens (ISA2) Programme. It can be regarded an example of proactiveness"@en .
+
+elap:8e859d342d809eedaa418aa4df18cae21b8ec9f942934cb152879016bad09f35 a owl:Class;
+  dct:title """Administrative Simplification
+"""@en;
+  dct:description """Administrative Simplification refers to streamlined delivery services. e.g.:
+- Harmonised rules on eligibility and durability
+- Greater use of simplified costs
+- Linking payments with results
+- e-Cohesion
+- Proportional approach to control
+- Simplification of solutions"""@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://www.diba.cat/documents/228621/d7887f8a-08de-40ac-8647-fdc809412ca7"^^xsd:anyURI;
+  rdfs:comment """EU Cohesion Policy
+2014 – 2020
+Proposals from the European Commission"""@en .
+
+elap:8f6fb4eb7f42c0e245e29e63f5b82cc3ba19852681d1ed9aed291f59cf75ec0e a owl:Class;
+  dct:title "Security by Design"@en;
+  dct:description "Security by design refers to one of the prime principles found in any standard, and in any practice throughout the whole of IT. It encompassess the protection of valuable assets, by securing them safely within the boundaries of organizations, taking into account the ownership of the assets. This means that in any circumstance, one has to attend to the valuable property, being 'data' and 'technology' as a whole, both by securing access to (data)assets and by securing the proliferation of data(assets) outside the boundaries, for which one is responsible.
+  Security by design (or secure by design), sometimes abbreviated “SbD,” is a new industry term for a range of security practices built on one fundamental idea — that security should be built into a product by design, instead of being added on later by third-party products and services. "@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Operation"@en;
+  dct:source "https://owasp.org/
+  https://www.techopedia.com/definition/34101/security-by-design-sbd"^^xsd:anyURI ;
+  rdfs:comment """The Open Web Application Security Project® (OWASP) is a nonprofit foundation that works to improve the security of software. Through community-led open-source software projects, hundreds of local chapters worldwide, tens of thousands of members, and leading educational and training conferences, the OWASP Foundation is the source for developers and technologists to secure the web.
+
+- Tools and Resources
+- Community and Networking
+- Education & Training"""@en .
+
+elap:7f93e7a280e7644336cdc806ad31321f1d072fc022523c1e8789649638b5612a a owl:Class;
+  dct:title "Social participation"@en;
+  dct:description """Social participiation refers to Promoting Civic Participation and Transparency
+of Government Decision-Making Processes covering policies concerning ICT: 
+• E-democracy
+• E-participation
+• Government-to-citizen (G2C) • Citizen-to-government (C2G) • Citizen-to-citizen (C2C)
+• Open governance partnership • Grass-root activism and social
+networking
+• Political campaigns • Online media
+• I-voting
+• Mechanisms: e-petitions, online consultation
+and crowd-sourcing platforms etc."""@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Strategy (Public Policy Cycle)"@en;
+  dct:source "https://ecas.org/digital-democracy/"^^xsd:anyURI;
+  rdfs:comment "ECAS is implementing a Digital Democracy Agenda, aiming to explore the democratic potential of ICT"@en .
+
+elap:189cba40eb74325578b62816ab771f650bb5902699f6fe5d8ccd025589b66d22 a owl:Class;
+  dct:title "Accountability"@en;
+  dct:description """Digital public services will enable accountability of users and of public administrations. 
+Transparency, liability, controllability, responsibility, and responsiveness are defined as distinct dimensions of accountability, providing an improvement on the current state of conceptual fuzziness. The typology provides a vocabulary for the core argument, that conflicting expectations borne of disparate conceptions of accountability undermine organizational effectiveness."""@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Strategy (Public Policy Cycle)"@en;
+  dct:source "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6210.2005.00434.x"^^xsd:anyURI;
+  rdfs:comment "https://www.researchgate.net/publication/249398645_Pathologies_of_Accountability_ICANN_and_the_Challenge_of_Multiple_Accountabilities_Disorder"@en .
+
+elap:c47df94d2019bc63ae5b87309dcc3779565de9d307a206f9cc40d272ccf384dc a owl:Class;
+  dct:title "Market collaboration"@en;
+  dct:description """Digital public services will be designed and delivered considering partnership relationships with private sector.
+Market Collaboration ensures efficient and effective use of resources, by seeking for reusable standards, that are open and supporting cost-effective interoperability between ICT capabilities and facilitate citizen-oriented business models"""@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Strategy (Public Policy Cycle)"@en;
+  dct:source "https://www.researchgate.net/publication/314417514_E-Government_Business_Models_for_Public_Service_Networks"^^xsd:anyURI;
+  rdfs:comment "Whilst the concept of business model has become popular in the networked economy, unexplored is whether it is equally applicable to e-government, which emphasizes cross-agency collaboration in form of public service networks. Drawing upon the literature on resource-based views, dynamic capability, and coordination theory, we develop a framework comprising of six elements: (1) organizations in the public service network, (2) service offerings, (3) network coordination, (4) business processes, (5) shared resources and (6) network capabilities. We use this framework to analyze three case studies in detail. The model is useful for understanding the relation between service offering and the challenges of coordinating public service networks. Overcoming these challenges results in better leveraging the advantages of business models. Our findings indicate business models that facilitate knowledge transfer and understanding of shared resources and network capabilities can further enhance better resource mix in migrating toward citizen-oriented business models"@en .
+
+elap:c2369c8ed7bbc3b77835bd440ac06862ae47d2fa13505de19b03355bf39161d5 a owl:Class;
+  dct:title "Digital Inclusion"@en;
+  dct:description "Digital Inclusion relates to seamless, transparent, accessible and user-friendly digital government services. Citizens must be able to use such digital services without having legal knowledge. The members of our societies should have the opportunity to help shape the digital transformation and share their ideas and content with others unimpeded, while respecting the rights of third parties. The public sector should encourage such wider participation in policy-making by involving society in the design of public services through co-creation, ex- perimentation and collaboration."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Strategy (Public Policy Cycle)"@en;
+  dct:source "https://digital-strategy.ec.europa.eu/en/policies/digital-inclusion"^^xsd:anyURI;
+  rdfs:comment "Digital inclusion is an EU-wide effort to ensure that everybody can contribute to and benefit from the digital world.  "@en .
+
+elap:d3368cbffe23c98da887d279a1b5c74b7618ba5c0488cbed30cf304f8f9398a1 a owl:Class;
+  dct:title "Accessibility"@en;
+  dct:description "Accessibility ensures that people with disabilities, the elderly and other disadvantaged groups can use public services at service levels comparable to those provided to other citizens."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Strategy (Public Policy Cycle)"@en;
+  dct:source "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/inclusion-and-accessibility"^^xsd:anyURI;
+  rdfs:comment "Inclusion and accessibility is further incorporated in various industry standards, like WCAG (https://www.w3.org/WAI/standards-guidelines/wcag/) and OWASP (https://owasp.org) regarding secure offering of services over the web."@en .
+
+elap:2a0e65a1076eae1d6d472c2c87734307e7dcda5e5976beb6c38299e5cc85c558 a owl:Class;
+  dct:title "Convergence assurance on public policy goals attainment"@en;
+  dct:description "The assessment of effective realisation of public services, based on public policies, by evaluating various technological solutions when striving to ensure the effectiveness and efficiency of a European public service."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source " assessment of effectiveness and efficiency"^^xsd:anyURI;
+  rdfs:comment "Underlying principles of EIF (https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.3)"@en .
+
+elap:80668d88a465856873c447c1fc9fe793b564b2d5da0266bd57463305ea0d2f25 a owl:Class;
+  dct:title "Convergence control on public policy goals attainment"@en;
+  dct:description "The design and implementation of sufficient mechanisms in order to attain full visibility on effective realisation of public services, based on public policies, by putting in place processes and procedures that provide accountability to stakeholders"@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Operation"@en;
+  dct:source " assessment of effectiveness and efficiency"^^xsd:anyURI;
+  rdfs:comment "Underlying principles of EIF (https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.3)"@en .
+
+elap:47e75075eacf318f21c3d4e47bf16d36bed5da6897ab8e82bf2d8a98012ccb31 a owl:Class;
+  dct:title "User-centricity"@en;
+  dct:description "User-centricity refers to putting users’ needs at the centre when determining which public services should be provided and how they should be delivered. Therefore, as far as possible, user needs and requirements should guide the design and development of public services, in accordance with the following expectations: i A multi-channel service delivery approach; ii A single point of contact should be made available to users; iii Users’ feedback should be systematically collected, assessed and used to design new public services and to further improve existing ones."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/user-centricity"^^xsd:anyURI;
+  rdfs:comment "Underlying principles of EIF (https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.3)"@en .
+
+elap:67cbe7ce3daff41ad82bac3687b5991f5bddb71159823952f34e246a53b567e5 a owl:Class;
+  dct:title "Subsidiarity and proportionality"@en;
+  dct:description "The subsidiarity principle requires EU decisions to be taken as closely as possible to the citizen"@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.2"^^xsd:anyURI;
+  rdfs:comment "Underlying principles of EIF (https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.3)"@en .
+
+elap:c73b8ce361cfc7275342a03960d89618e0e7dd04dce445ead4b0345be9dc960d a owl:Class;
+  dct:title "Openness"@en;
+  dct:description "In the context of interoperable public services, the concept of openness mainly relates to data, specifications and software."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.2"^^xsd:anyURI;
+  rdfs:comment "Underlying principles of EIF (https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.3)"@en .
+
+elap:26a46ba9e1d7b804b55b95a9db335a4787b7135ed745452de324cefb305131c4 a owl:Class;
+  dct:title "Reuse, before buy, before build"@en;
+  dct:description """Re-use first: existing IT systems and services, already acquired, should be re-deployed prior to considering buying new systems, or at worst case, building new systems.
+If a “buy” decision is justified, the customisation of the solution should be avoided or kept at a minimum. They should be based on ready-made market solutions with which the business processes are harmonised (across the organisation), aligned with state-of-the-art market standards and/or adapted, if necessary. In all cases, open-source solutions take precedence over proprietary solutions."""@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/reusability"^^xsd:anyURI;
+  rdfs:comment "Underlying principles of EIF (https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.3)"@en .
+
+elap:98eb033fb69cf474544f961497491e5f062137c15dc2ca8143cc052622ea00ab a owl:Class;
+  dct:title "Data portability"@en;
+  dct:description "Data portability refers to the ability to move and reuse data easily among different applications and systems, which becomes even more challenging in cross-border scenarios."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/technological-neutrality-and-data-portability"^^xsd:anyURI;
+  rdfs:comment "Underlying principles of EIF (https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.3)"@en .
+
+elap:63f9ac90ebc1f7ca0deb9e4ebea95338f84a37e665c4ff7e1dfc5ca0626a5f50 a owl:Class;
+  dct:title "Multilingulism"@en;
+  dct:description "Multilingualism requires striking a balance between the expectations of citizens and businesses to be served in their own language(s) or their preferred language(s) and the ability of Member States’ public administrations to offer services in all official EU languages"@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/glossary/term/multilingualism"^^xsd:anyURI;
+  rdfs:comment "Underlying principles of EIF (https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.3)"@en .
+
+elap:88aca14d33fff45fbea4e4d8ca786dc1a830405af986cb37103c778861112f39 a owl:Class;
+  dct:title "Preservation of information"@en;
+  dct:description "Legislation requires that decisions and data are stored and can be accessed for a specified time. This means that records and information in electronic form held by public administrations for the purpose of documenting procedures and decisions must be preserved and be converted, where necessary, to new media when old media become obsolete"@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Operation"@en;
+  dct:source "https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.13"^^xsd:anyURI;
+  rdfs:comment "Underlying principles of EIF (https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/2-underlying-principles-european-public-services#2.3)"@en .
+
+elap:ade9248e0132b4112c81e94cce392e1068029bac214f23c79d10693e781a16f1 a owl:Class;
+  dct:title "Trust"@en;
+  dct:description "Trust entails the reliance of citizens on trustworthy and verifiable digital government applications and services, which are in full conformity with high security standards and respond to user needs. Fundamental rights and security should be integrated in all policies with a digital dimension. To foster trust in digital interactions with the public sector, suitable regulatory frameworks must be provided that ensure transparency, predictability, security-by-design and, where necessary, reinforcement or adjustment of existing provisions."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Operation"@en;
+  dct:source "NO LINK TO SOURCE AVAILABLE"^^xsd:anyURI;
+  rdfs:comment """Trust and security in digital government interactions
+Everyone should be able to navigate the digital world safely, authenticate and be digitally recognised within the EU conveniently. All people of Europe should avail of an easy to use, widely accepted and secure elec-tronic identification conforming to European standards (e-ID), which allows them to securely access public, private and cross-border digital services. As a broad acceptance of digital government depends on trust, we must ensure that citizens and businesses are able to rely on trustworthy and verifiable digital government applications and services, which are in full conformity with high security standards and respond to user needs. Moreover, in order to ensure a free, open and safe digital domain and enhance social trust, funda-mental rights and security should be integrated in all policies with a digital dimension. To foster trust in digital interactions with the public sector, suitable regulatory frameworks must be provided that ensure transparency, predictability, security-by-design and, where necessary, reinforcement or adjustment of exist-ing provisions."""@en .
+
+elap:2994a0a122f41d5fdeeda656e757a4798afd60b1c1b4060e2062e169de3e77c8 a owl:Class;
+  dct:title "European digital sovereignty"@en;
+  dct:description "European digital sovereignty entails the ensurance that all underlying digital components of ICT solutions (hardware, software, and services) meet European requirements, including the requirements to deploy a secure cloud infrastructure and interoperable services that fully comply with European legal provisions and ethical values."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Strategy (Public Policy Cycle)"@en;
+  dct:source "https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age_en"^^xsd:anyURI;
+  rdfs:comment """Digital sovereignty and interoperability 
+Digital sovereignty is key in ensuring the ability of citizens and public administrations to make decisions and act in a self-determined manner in the digital world. We must ensure that all underlying digital components of ICT solutions (hardware, software, and services) meet European requirements. We must create the right conditions for Europe to develop and deploy our own key digital capacities, including the deployment of secure cloud infrastructure and interoperable services that fully comply with European legal provisions and ethical values. Common standards, modular architectures and the use of Open-Source Software (OSS) in the public sector are facilitators for deploying and developing strategic digital tools and capacities. We must ensure the availability of diverse and high-performing digital solutions to guarantee freedom of choice and the ability to change IT modules when necessary. Software, data and tools generated by the public sector should be reusable and openly accessible as long as this is compliant with fundamental rights. As explained in the European data strategy, a strengthened interoperability framework, as well as suitable regulatory frameworks are key in helping Europe benefit from the economic value of data, thus creating a single market for data that will ensure Europe's global competitiveness and data sovereignty."""@en .
+
+elap:a7c55dfa8dc306c585773e3b26615c76379d39bcaee7c37d81e4c08ca805ffa3 a owl:Class;
+  dct:title "Deployment fit (Cloud-first approach) "@en;
+  dct:description "Decide early on the type of deployment: On-premise, vs. Cloud-native and sourcing models iPaas, Paas, SaaS, etc"@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Strategy (Public Policy Cycle)"@en;
+  dct:source "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj107ORv7v2AhX5gP0HHe4IBNwQFnoECBgQAQ&url=https%3A%2F%2Fec.europa.eu%2Finfo%2Fsites%2Fdefault%2Ffiles%2Fec_cloud_strategy.pdf&usg=AOvVaw09VDKvW8wCRo5ELg3gwH9C"^^xsd:anyURI;
+  rdfs:comment "European Commission cloud strategy: \"Cloud-first with a secure hybrid multi-cloud service offering\". Cloud-first means that systems should rather be conceived in such a way that they can benefit from the advantages of cloud based delivery models, which exist both on premise and in the public cloud. The choice of architecture, especially of on premise and/or public cloud, will depend on the advantages, constraints and risks for a specific system. So it does not mean that all systems should go to the public cloud."@en .
+
+elap:2a0ffb41030a1975085ece30533b08c1afe46b92662fff520453782297e44e5e a owl:Class;
+  dct:title "Loosely coupled integration"@en;
+  dct:description "Any public organisation should avoid entanglement of inter-organisational processes for performing activities, that spread over multiple organisations. The application for a visa for instance, should be performed in a single transaction, from an applicant's perspective. Whether the process comprises multiple interactions between public institutions (like Frontex, Embassy, Interpol) or not, should be transparent to the applicant. Inter-organisational interfaces in this case should not duplicate the processes, using the same data and leading to the same outcome. Each organisation serves a unique part of the application process."@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://link.springer.com/book/10.1007/978-3-642-14316-8"^^xsd:anyURI;
+  rdfs:comment "Social systems conducting experiments provides a comprehensive summary on the theory and practice of the application of systems theory in organisations"@en .
+
+elap:4436de0fb92b90836295c501ea0d2a5d2fda95d141cee0a53dfdd23740b9b6a4 a owl:Class;
+  dct:title "Carbon-dioxide e-footprint impact awareness "@en;
+  dct:description "Every solution must support sustainability. Sourcing, operation and decommissioning of IT equipment should not indirectly or directly negatively affect economic, social and environmental aspects"@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Design"@en;
+  dct:source "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjiofaGvLv2AhUThf0HHSXLBZoQFnoECAIQAQ&url=https%3A%2F%2Fwww.europarl.europa.eu%2FRegData%2Fetudes%2FSTUD%2F2020%2F652735%2FIPOL_STU(2020)652735_EN.pdf&usg=AOvVaw2CVqJPeLvN_ianAYdbLyi7"^^xsd:anyURI;
+  rdfs:comment "Towards carbon neutrality - European Parliament: The study analyses the European Parliament’s (EP) carbon footprint in the context of the recent EP resolutions, in which it declared a climate emergency in Europe and requested the development of a strategy to become itself carbon-neutral by 2030."@en .
+
+elap:1c899b1d47788bc16613726ea62ffccb465e8ffcabd341ea81fd5a9ec9dfb38f a owl:Class;
+  dct:title "Care from cradle to grave"@en;
+  dct:description "a full life cycle cost of ownership (including retirement costs) should form part of the business case"@en;
+  elap:scope "Business agnostic"@en;
+  elap:category "Digital Public Service Strategy (Public Policy Cycle)"@en;
+  dct:source "https://www.europarl.europa.eu/news/en/headlines/society/20210128STO96607/how-the-eu-wants-to-achieve-a-circular-economy-by-2050"^^xsd:anyURI;
+  rdfs:comment "How the EU wants to achieve a circular economy by 2050"@en .
