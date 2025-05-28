@@ -713,8 +713,7 @@ elap:privacy a owl:Class;
     eira:IndividualStakeholder, eira:DigitalPublicServiceConsumerBusinessRole, eira:DigitalPublicServiceBusinessService,
     eira:DigitalPublicServiceProviderBusinessRole, eira:DataOwnerBusinessRole, eira:DataHolderBusinessRole,
     eira:PrivacyFrameworkBusinessObject, eira:DataPolicyBusinessObject, eira:DataMappingDataObject,
-    eira:OntologyDataObject, eira:DatasetDataObject, eira:VirtualDatasetDataObject, eira:DataDataObject,
-    "Data Management Enablers", "Privacy Enablers" .
+    eira:OntologyDataObject, eira:DatasetDataObject, eira:VirtualDatasetDataObject, eira:DataDataObject, eira:DataManagementEnablersGrouping, eira:PrivacyEnablersGrouping .
 
 elap:proactiveness a owl:Class;
   dct:title "Proactiveness"@en;
